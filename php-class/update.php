@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 
-$sql = "UPDATE MyGuests SET lastname='Doe' WHERE id=2";
+$sql = "UPDATE MyGuests SET lastname='Ale' WHERE lastname='Doe'";
 
 if ($conn->query($sql) === TRUE) {
   echo "Record updated successfully";
